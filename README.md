@@ -1,3 +1,71 @@
+# Meta Ad Analyzer
+
+메타 광고 성과를 분석하고 최적화하는 웹 애플리케이션입니다.
+
+## 주요 기능
+
+- 일별 광고 성과 분석
+- 상대적 ROAS 평가
+- 광고 최적화 추천
+- 시각화 대시보드
+
+## 설치 방법
+
+1. 저장소 클론
+```bash
+git clone https://github.com/yourusername/meta-ad-analyzer.git
+cd meta-ad-analyzer
+```
+
+2. 의존성 설치
+```bash
+npm install
+```
+
+3. 개발 서버 실행
+```bash
+npm start
+```
+
+## 사용 방법
+
+1. 데이터 업로드
+   - `public/data` 폴더에 CSV 파일 업로드
+   - 파일명 형식: `YYYYMMDD~YYYYMMDD.csv`
+
+2. 분석 실행
+   - 웹 인터페이스에서 "분석 시작" 버튼 클릭
+   - 결과는 대시보드에 자동으로 표시됨
+
+3. 결과 확인
+   - 광고별 성과 지표
+   - 상대적 ROAS 분석
+   - 최적화 추천
+
+## 배포된 버전
+
+최신 버전은 다음 URL에서 확인할 수 있습니다:
+https://yourusername.github.io/meta-ad-analyzer
+
+## 기술 스택
+
+- React
+- Recharts (데이터 시각화)
+- PapaParse (CSV 파싱)
+- XLSX (엑셀 파일 처리)
+
+## 기여 방법
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 라이선스
+
+MIT License - 자세한 내용은 LICENSE 파일을 참조하세요.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
