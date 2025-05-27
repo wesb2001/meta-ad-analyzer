@@ -253,7 +253,7 @@ function App() {
         </div>
         {processedResults.length > 0 && processedResults
           .filter(({ adName, processed }) => {
-            const basicCondition = processed && processed.length > 5 && !closedAds.includes(adName);
+            const basicCondition = processed && processed.length > 0 && !closedAds.includes(adName);
             // 원본 데이터에서 해당 광고의 마지막 날짜의 지출금액 확인
             const adRows = adData.filter(row => row['광고 이름'] === adName);
             if (adRows.length === 0) return false;
